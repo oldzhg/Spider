@@ -2,8 +2,8 @@ import re
 import requests
 from openpyxl import load_workbook
 
-t = 1  # 开始位置
-p = 10  # 结束位置  汇总表中数据量共1w
+t = 300  # 开始位置
+p = 325  # 结束位置  汇总表中数据量共1w
 base_url = 'https://www.amazon.ae/s?k=' 
 filename = '汇总.xlsx'
 
